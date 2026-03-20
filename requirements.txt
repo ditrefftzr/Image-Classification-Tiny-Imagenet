@@ -1,6 +1,10 @@
-pandas
-matplotlib
-numpy
-torch
-torchvision
-Pillow
+pandas==3.0.1
+matplotlib==3.10.8
+numpy==2.4.3
+# For GPU (CUDA 12.8) — recommended:
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+# For CPU-only, replace the two lines above with:
+# torch==2.10.0
+# torchvision==0.25.0
+Pillow==12.1.1
