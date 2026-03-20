@@ -1,0 +1,21 @@
+# Dataset (downloaded on first run, ~500 MB extracted)
+dataset/
+
+# Model checkpoints (generated during training)
+checkpoints/
+!checkpoints/.gitkeep
+
+# Path mapping cache (machine-specific absolute paths)
+path_mappings.pkl
+
+# Submission outputs
+submission_*.csv
+
+# Jupyter runtime
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
